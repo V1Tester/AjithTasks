@@ -25,6 +25,7 @@ public class AmazonIPhone extends commonToAll.LaunchingBrowser {
 
 		driver.switchTo().window(tabs.get(1));
 
+
 		String price = driver.findElement(By.id("priceblock_ourprice")).getText();
 
 		System.out.println("the mobile cost" + "   " + price);
